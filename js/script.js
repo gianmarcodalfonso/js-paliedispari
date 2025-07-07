@@ -26,3 +26,8 @@ function oddevencheck(x, ya) {
     console.log(`Dispari`)
   }
 }
+
+function rndmNum() {
+  let rndmNum = Math.floor(Math.random() * 5 + 1)
+  return rndmNum
+}
