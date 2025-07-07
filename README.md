@@ -26,3 +26,17 @@ Come dovrebbe chiamarsi?
 Ho bisogno di parametri?
 Devo restituire un valore?
 Se sì, di che tipo?
+
+### palindroma exe
+
+1-prompt utente
+2-check
+3-output result
+
+### Pari e Dispari exe
+
+1-prompt utente
+2-random number
+3-sum numbers
+4-check pari o dispari
+5-output winner
