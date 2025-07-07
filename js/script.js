@@ -14,3 +14,15 @@ if (paliCheck(userWord)) {
 } else {
   console.log(`${userWord} non è un palindromo`);
 }
+
+console.log(`-----Pari e dispari-----`)
+
+function oddevencheck(x, ya) {
+  let sum = x + y
+  if (sum %2 === 0) {
+    console.log(`Pari`)
+  }
+  else {
+    console.log(`Dispari`)
+  }
+}
