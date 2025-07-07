@@ -42,3 +42,15 @@ console.log(`Il numero della cpu è: ${cpuNum}`)
 
 let userCpuSum = oddevencheck()
 console.log(userCpuSum)
+
+if (userWinCondition === `pari` && userCpuSum === true) {
+  console.log(`Hai vinto`)
+}
+
+else if (userWinCondition === `dispari` && userCpuSum === false) {
+  console.log(`Hai vinto`)
+}
+
+else {
+  console.log(`Hai perso`)
+}
