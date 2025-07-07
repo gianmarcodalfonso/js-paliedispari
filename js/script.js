@@ -40,8 +40,7 @@ let userNum = prompt(`Scrivi un numero da 1 a 5:`)
 let cpuNum = rndmNum();
 console.log(`Il numero della cpu è: ${cpuNum}`)
 
-let userCpuSum = oddevencheck()
-console.log(userCpuSum)
+let userCpuSum = oddevencheck(userNum, cpuNum)
 
 if (userWinCondition === `pari` && userCpuSum === true) {
   console.log(`Hai vinto`)
